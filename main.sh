@@ -3,11 +3,12 @@
 # Function to generate disk usage report
 generate_report() {
     echo "Generating Disk Usage Report for $1..."
+    
     echo "----------------------------------------"
     
     # Generate disk usage for the given directory
     du -ah --max-depth=1 "$1" | sort -hr
-    
+
     echo "----------------------------------------"
 }
 
