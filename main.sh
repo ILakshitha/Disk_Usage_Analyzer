@@ -7,7 +7,7 @@ sleep 1
 
 
 # ANSI color codes
-BLUE='\033[0;35m'
+BLUE='\033[0;33m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
