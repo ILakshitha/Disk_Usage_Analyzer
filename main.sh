@@ -3,11 +3,12 @@
 
 #show your currunt destination
 pwd
+
 sleep 1
 
 
 # ANSI color codes
-BLUE='\033[0;33m'
+BLUE='\033[0;32m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
