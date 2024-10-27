@@ -3,7 +3,6 @@
 
 #show your currunt destination
 pwd
-
 sleep 1
 
 
