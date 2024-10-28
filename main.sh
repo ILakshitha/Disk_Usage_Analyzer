@@ -45,7 +45,6 @@ generate_report() {
 echo "Enter directories to analyze (space-separated):"
 read -r directories
 
-
 # If no directories are provided, use default directories
 if [ -z "$directories" ]; then
     directories="/home /var /tmp"
