@@ -69,5 +69,6 @@ for dir in $directories; do
     fi
 done
 
+
 # Output summary
 echo "Disk Usage Report has been saved to $output_file."
